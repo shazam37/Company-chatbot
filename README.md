@@ -30,7 +30,7 @@ export OPENAI_API_KEY="your_openai_api_key_here"
 
 python app.py
 
-2. The application will be running on ####http://127.0.0.1:5000.
+2. The application will be running on http://127.0.0.1:5000.
 
 ### Project Structure
 
