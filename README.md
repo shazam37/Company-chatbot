@@ -17,8 +17,9 @@ This project is a Flask-based chatbot application that provides detailed company
    cd chatbot-project
 
 2. Install the required libraries:
-
-pip install -r requirements.txt
+   
+   ```sh
+   pip install -r requirements.txt
 
 3. Set up your OpenAI API key:
 
