@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot App</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Chatbot App!</h1>
+        <br>
+        <div class="section">
+            <h2 style="color: red; text-align: center;">Ask a Question</h2>
+            <form method="POST" action="{{ url_for('ask') }}">
+                <label for="query">Enter your query related to the company:</label>
+                <input type="text" id="query" name="query" required placeholder="Ex. tell me something about the company">
+                <button type="submit">Ask</button>
+                <br>
+            </form>
+            {% if query %}
+            <h3>Question: {{ query }}</h3>
+            <p>Response: {{ response }}</p>
+            {% endif %}
+            {% if error %}
+            <p>{{ error }}</p>
+            {% endif %}
+        </div>
+        <br>
+        <div class="section">
+            <h2 style="color: green; text-align: center;">Upload a File</h2>
+            <form method="POST" action="{{ url_for('upload_file') }}" enctype="multipart/form-data">
+                <label for="file">Select a PDF or DOCX file to upload:</label>
+                <input type="file" id="file" name="file" required>
+                <button type="submit">Upload</button>
+            </form>
+            {% if extracted_text %}
+            <pre>{{ extracted_text }}</pre>
+            {% endif %}
+            {% if upload_error %}
+            <p>{{ upload_error }}</p>
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>
