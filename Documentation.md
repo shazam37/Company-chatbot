@@ -1,4 +1,4 @@
-- **User Guide (`user_guide.md`)**
+- **Documentation**
 
   ```markdown
   # User Guide for Company Info and File Upload Chatbot
