@@ -1,7 +1,7 @@
 # Company Chatbot
 
 ## Introduction
-This project is a Flask-based chatbot application that provides detailed company information upon request and can handle file uploads (PDF and DOCX) for processing text content.
+This project is a Flask-based chatbot application that provides detailed company information upon request and can handle file uploads (PDF and DOCX) for processing text content. Its logic is built using the integration of OpenAI API and Langchain. You can give the context of the company using a dictionary in the **agents.py** file so that the chatbot responses based on the companies info. 
 
 ## Setup Instructions
 
