@@ -37,16 +37,16 @@ This project is a Flask-based chatbot application that provides detailed company
 
 ### Project Structure
 
-#agents.py: Main application file containing the chatbot logic
+- agents.py: Main application file containing the chatbot logic
 
-#app.py: application file containing the Flask routes.
+- app.py: application file containing the Flask routes.
 
-#requirements.txt: File listing all the dependencies required for the project.
+- requirements.txt: File listing all the dependencies required for the project.
 
-#README.md: This file, providing setup and usage instructions.
+- README.md: This file, providing setup and usage instructions.
 
-#static and templates: for the HTML and CSS files.
+- static and templates: for the HTML and CSS files.
 
-#Documentation: containing information about using the app.
+- Documentation: containing information about using the app.
 
-#Development Notes: containing information about the development process and the challenges faced.
+- Development Notes: containing information about the development process and the challenges faced.
