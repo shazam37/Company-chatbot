@@ -50,3 +50,20 @@ This project is a Flask-based chatbot application that provides detailed company
 - Documentation: containing information about using the app.
 
 - Development Notes: containing information about the development process and the challenges faced.
+
+### The app outlook
+
+- The app before any upload looks like:
+  
+![image1](https://github.com/shazam37/Company-chatbot/assets/119686545/4d6edb84-8b65-4b3c-9892-65ab0036dcc7)
+
+- The app upon receiving a query gives a response:
+
+![image2](https://github.com/shazam37/Company-chatbot/assets/119686545/800549b3-e59f-4693-a422-9783ad023615)
+
+- The app on file upload gives a prompt for successful file submission: 
+
+![image3](https://github.com/shazam37/Company-chatbot/assets/119686545/d46760a1-5fe8-4683-8956-4544c64fcb0a)
+
+
+   
