@@ -23,28 +23,30 @@ This project is a Flask-based chatbot application that provides detailed company
 
 3. Set up your OpenAI API key:
 
-export OPENAI_API_KEY="your_openai_api_key_here"
+   ```sh
+   export OPENAI_API_KEY="your_openai_api_key_here"
 
 ### Running the Application
 
 1. Start the Flask application:
 
-python app.py
+   ```sh
+   python app.py
 
 2. The application will be running on http://127.0.0.1:5000.
 
 ### Project Structure
 
-agents.py: Main application file containing the chatbot logic
+#agents.py: Main application file containing the chatbot logic
 
-app.py: application file containing the Flask routes.
+#app.py: application file containing the Flask routes.
 
-requirements.txt: File listing all the dependencies required for the project.
+#requirements.txt: File listing all the dependencies required for the project.
 
-README.md: This file, providing setup and usage instructions.
+#README.md: This file, providing setup and usage instructions.
 
-static and templates: for the HTML and CSS files.
+#static and templates: for the HTML and CSS files.
 
-Documentation: containing information about using the app.
+#Documentation: containing information about using the app.
 
-Development Notes: containing information about the development process and the challenges faced.
+#Development Notes: containing information about the development process and the challenges faced.
